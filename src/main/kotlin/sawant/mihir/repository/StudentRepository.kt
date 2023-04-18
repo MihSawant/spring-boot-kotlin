@@ -19,4 +19,8 @@ class StudentRepository(private val students: MutableList<Student> = mutableList
         students[index] = student;
     }
 
+    fun add(student: Student){
+        students.add(student);
+    }
+
 }
