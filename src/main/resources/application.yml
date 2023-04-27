@@ -1,0 +1,8 @@
+# giving app a name
+spring:
+  application:
+    name: spring-boot-kotlin
+
+# using this spring will dynamically assign a port which is available
+server:
+  port: 0
