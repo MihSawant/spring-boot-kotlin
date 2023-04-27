@@ -6,3 +6,12 @@ spring:
 # using this spring will dynamically assign a port which is available
 server:
   port: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
